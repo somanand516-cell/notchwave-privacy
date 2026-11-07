@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notchwave Privacy Policy</title>
+<meta name="description" content="What Notchwave for Windows accesses, whether it leaves your PC, how long it is kept and how to delete it.">
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --dim: #5f6368; --line: #e3e3e8; --card: #f6f6f8; --accent: #6b4de6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0e0e11; --fg: #ececf1; --dim: #a0a0aa; --line: #2a2a31; --card: #17171c; --accent: #a993ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 "Segoe UI Variable", "Segoe UI", system-ui, Roboto, sans-serif; }
+  main { max-width: 900px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 36px 0 10px; padding-top: 8px; border-top: 1px solid var(--line); }
+  .meta { color: var(--dim); margin: 0 0 24px; }
+  .meta span { display: inline-block; margin-right: 16px; }
+  a { color: var(--accent); }
+  code { font-family: Consolas, "Cascadia Mono", monospace; font-size: .9em; background: var(--card); padding: 1px 5px; border-radius: 4px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 20px; }
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { border-collapse: collapse; width: 100%; font-size: .93rem; min-width: 640px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { color: var(--dim); font-weight: 600; white-space: nowrap; }
+  li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Notchwave Privacy Policy</h1>
+  <p class="meta"><span>App: Notchwave for Windows</span><span>Developer: Som Anand Sahoo</span><span>Effective date: 7 November 2026</span><br>
+    Contact: <a href="mailto:somanandsahoo96@gmail.com">somanandsahoo96@gmail.com</a></p>
+
+  <p>Notchwave is a Windows app that shows music, notifications, timers and other information in a small notch at the top of your screen. This policy explains what Notchwave accesses, where that data goes, how long it is kept and how you can delete it.</p>
+
+  <h2>In short</h2>
+  <div class="summary">
+    <ul>
+      <li><strong>No account is required.</strong> There is no sign-in, and Notchwave has no servers of its own.</li>
+      <li><strong>No ads, no analytics, no telemetry.</strong> The developer does not collect, receive or store any of your data.</li>
+      <li><strong>No data is sold or shared</strong> with anyone for advertising or any other purpose.</li>
+      <li>Almost everything happens <strong>only on your PC</strong>. Notchwave goes online only for features you set up yourself (weather, your calendar link, synced lyrics), each described below.</li>
+    </ul>
+  </div>
+
+  <h2>What Notchwave accesses</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Data</th><th>Why</th><th>Leaves your PC?</th><th>Kept for</th><th>How to delete it</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Windows notifications</strong> (app name, title, text, icon), only after you allow notification access in Windows</td><td>To show them in the notch and keep a short history</td><td>No</td><td>If "Keep notification history" is on: the last 200 notifications, at most 7 days. Otherwise only while shown</td><td>Turn off <strong>Settings → Notifications → Keep notification history</strong> (this deletes the file), or uninstall</td></tr>
+      <tr><td><strong>Media playback info</strong> (title, artist, album art, app, play state) from Windows media controls</td><td>To show what's playing and the controls</td><td>No (except lyrics, below)</td><td>Only in memory while it plays</td><td>Nothing is stored</td></tr>
+      <tr><td><strong>System audio levels</strong></td><td>To draw the music visualizer</td><td>No</td><td>Not stored</td><td>—</td></tr>
+      <tr><td><strong>Camera</strong> (only while the Mirror page is open)</td><td>A live preview to check how you look</td><td>No. Never recorded, saved or sent</td><td>Not stored</td><td>—</td></tr>
+      <tr><td><strong>Microphone</strong> (only if you turn on narration while screen sharing; off by default)</td><td>Your voice for the viewers you approve</td><td>Only to viewers on your local network (see Screen sharing)</td><td>Not stored</td><td>—</td></tr>
+      <tr><td><strong>Clipboard</strong></td><td>Clipboard history</td><td>No</td><td>In memory only, until Notchwave closes</td><td>Close Notchwave, or turn off Clipboard in <strong>Settings → Features</strong></td></tr>
+      <tr><td><strong>Notes and to-do list</strong></td><td>Notes you write in the notch</td><td>No</td><td>Until you delete them</td><td>Delete them in the Notes page, or uninstall</td></tr>
+      <tr><td><strong>File shelf</strong></td><td>Files you drop on the notch for later</td><td>No. Only the file <strong>paths</strong> are saved; your files are never copied or read</td><td>Until you remove them from the shelf</td><td>Clear the shelf, or uninstall</td></tr>
+      <tr><td><strong>Calendar link</strong> (an .ics address you paste) and its events</td><td>To show your next event</td><td>The link is downloaded from the server it points to (for example Outlook or Google)</td><td>The link is saved in your settings; events only in memory</td><td>Clear the link in <strong>Settings → Widgets → Calendar</strong></td></tr>
+      <tr><td><strong>Weather city</strong> (a name you type)</td><td>To show the weather</td><td>The city name and its coordinates go to Open-Meteo (see below). Your device location is never used</td><td>The city is saved in your settings</td><td>Clear it in <strong>Settings → Widgets → Weather</strong></td></tr>
+      <tr><td><strong>Device and system status</strong>: battery, Wi-Fi, Bluetooth devices and their battery level, Wi-Fi/Bluetooth/airplane-mode state, USB devices, displays, volume, brightness, CPU/GPU use, the app in front</td><td>To show status, short alerts, and to hide during fullscreen apps</td><td>No</td><td>Not stored (except the names of media apps that need refreshing, below)</td><td>—</td></tr>
+      <tr><td><strong>Media app names</strong> that don't report changes by themselves</td><td>So the notch refreshes them</td><td>No</td><td>In <code>media-learned.json</code> until uninstall</td><td>Uninstall</td></tr>
+      <tr><td><strong>Settings</strong></td><td>To remember your choices</td><td>No</td><td>Until you change or reset them</td><td><strong>Settings → About → Reset all</strong>, or uninstall</td></tr>
+      <tr><td><strong>Error logs</strong></td><td>To help find problems</td><td>No. Never uploaded; you decide whether to attach a log to an email</td><td>5 files of at most 1 MB each, the oldest overwritten</td><td>Delete the <code>logs</code> folder (Settings → About → Open logs folder)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>All of these files are kept on your PC in Notchwave's own folder, <code>%LOCALAPPDATA%\Notchwave</code>. For the Microsoft Store version, Windows keeps that folder inside the app's private data, and <strong>uninstalling Notchwave deletes it</strong>. The logs contain technical errors only. They never contain notification text, clipboard contents, notes, file names or anything you typed.</p>
+
+  <h2>Internet connections</h2>
+  <p>Each connection goes directly from your PC to the service named. The developer never sees it. As with any internet request, the service sees your IP address and the app's name and version.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Service</th><th>When</th><th>What is sent</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Open-Meteo</strong> (open-meteo.com)</td><td>Only if you enter a weather city</td><td>The city name (to find it), then its coordinates (for the forecast). See <a href="https://open-meteo.com/en/terms">Open-Meteo's terms</a></td></tr>
+      <tr><td><strong>Your calendar's server</strong> (for example Outlook or Google)</td><td>Only if you paste a calendar link</td><td>A request for that link</td></tr>
+      <tr><td><strong>LRCLIB</strong> (lrclib.net)</td><td>Only if you turn on synced lyrics (off by default)</td><td>Song title, artist and length</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>The Microsoft Store version never checks for updates itself: the Store updates it. (Versions downloaded from GitHub can check the public release list on GitHub once a day, only if you enter a repository in Settings.)</p>
+
+  <h2>Screen sharing</h2>
+  <p>Screen sharing starts only when you start it. Viewers on <strong>your own local network</strong> scan a QR code and connect directly to your PC, and you approve each viewer. The picture goes over a direct, peer-to-peer connection that stays on your local network: no relay or cloud server, and nothing passes through the developer. It is off on networks Windows marks as Public, and it stops by itself after a time limit you set. The sharing page runs in Microsoft Edge WebView2, a Windows component loaded only while you share; Microsoft's own terms apply to it.</p>
+
+  <h2>Sharing with third parties</h2>
+  <p>Notchwave does not sell, rent or share your personal data. The only data that reaches a third party is what you ask for through the internet features above.</p>
+
+  <h2>Children</h2>
+  <p>Notchwave is a general-purpose utility. It does not knowingly collect personal information from anyone, including children under 13, and it has no accounts, chat or ads.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Turn any feature off in <strong>Settings → Features</strong>.</li>
+    <li>Withdraw notification, camera, microphone or Bluetooth access at any time in <strong>Windows Settings → Privacy &amp; security</strong>.</li>
+    <li>Delete everything by uninstalling Notchwave. For versions not from the Store, also delete <code>%LOCALAPPDATA%\Notchwave</code> (and <code>%APPDATA%\DynamicIsland</code> if an older version left it).</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version is published at the same address with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests about privacy: <strong>Som Anand Sahoo</strong>, <a href="mailto:somanandsahoo96@gmail.com">somanandsahoo96@gmail.com</a></p>
+</main>
+</body>
+</html>
